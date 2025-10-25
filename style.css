@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #f3e5d8;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+main {
+  background-color: #fff;
+  max-width: 700px;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+main img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Young Serif', serif;
+  color: #302d2b;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px;
+  color: #5f564d;
+  margin-bottom: 20px;
+}
+
+.preparation-time {
+  background-color: #fff7fc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.preparation-time h2 {
+  color: #7b284f;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.preparation-time ul {
+  list-style-position: inside;
+  color: #5f564d;
+}
+
+.preparation-time li span {
+  font-weight: 700;
+}
+
+.ingredients h3 {
+  font-family: 'Young Serif', serif;
+  color: #854632;
+  margin-bottom: 10px;
+}
+
+.ingredients ul {
+  list-style-position: inside;
+  color: #5f564d;
+  margin-bottom: 25px;
+}
+
+.instructions h3 {
+  font-family: 'Young Serif', serif;
+  color: #854632;
+  margin-bottom: 10px;
+}
+
+.instructions ol {
+  margin-left: 20px;
+  color: #5f564d;
+}
+
+.instructions li span {
+  font-weight: 700;
+  color: #854632;
+}
+
+.nutrition h3 {
+  font-family: 'Young Serif', serif;
+  color: #854632;
+  margin-bottom: 10px;
+}
+
+.nutrition p {
+  color: #5f564d;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+td:first-child {
+  color: #5f564d;
+}
+
+td:last-child {
+  color: #854632;
+  font-weight: 700;
+}
+
+h1, h2, h3 {
+  line-height: 1.3;
+}
